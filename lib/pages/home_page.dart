@@ -61,6 +61,7 @@ class _HomePageState extends State<HomePage> {
             // user i/p --> expense amount
             TextField(
               controller: amountController,
+              keyboardType: TextInputType.number,
               decoration: InputDecoration(hintText: "Amount"),
             )
           ],
